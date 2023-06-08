@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
+    <header>My Research</header>
     <nav>
     <ul>
       <li><a href="/JumpDragon/">Home</a></li>
@@ -17,15 +17,45 @@
       <li><a href="/JumpDragon/contact.html">Contact</a></li>
     </ul>
   </nav>
-  
-    <h1>My Research</h1>
-    <h2>Current Research</h2>
-    <p>MBZUAI</p>
-    
-    <p>Cognitive systems</p>
 
-    <h2>Past Research</h2>
-    <p>taxonomy</p>
+    <h1>Current Research</h1>
+    <h2>MBZUAI</h2>
+    <img src="https://static.youthop.com/uploads/2022/12/opp_4017.jpg" alt="MBZUAI" width="600" height="300">
+    <p>I currently work as a Machine Learning Research Intern at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). <br>
+    My current research is under Prof. Chih-Jen Lin, a Distinguished Professor of Computer Science at National Taiwan University, <br>
+    and Affiliated Professor of Machine Learning at MBZUAI. </p>
+
+    <p><b>This current research focuses on Extreme Multi-Label Text Classification.</b> Current deep learning methods utilize pretrained <br>
+    models such as <b>BERT</b> to process texts, however<b>BERT</b> has a 512 token limit, which means vital context may be lost. <br>
+    Additionally, when we want to process large documents, <b>BERT</b> may not be ther best option. In fact, <a href="https://www.csie.ntu.edu.tw/~cjlin/papers/text_classification_baseline/text_classification_baseline.pdf">linear classifiers</a><br>
+    are extremely competitive and often outperform deep learning models in accuracy and speed. The speed factor is especially notable, <br>
+    as it can turn hours of computing time into mere seconds. Another advangtage of linear classifiers is that these SVM's can be <br>
+    run on CPU. As GPU's are in high demand, they shouldn't be overlooked. </p>
+
+    <p>Although competitive, linear classifiers do fail sometimes. The advantage of using deep learning models is the ability to <br>
+    incorporate context in our decision making process. Linear classifiers utilize bag-of-words technique - basically the words <br>
+    aren't able to talk to each other - whereas <b>BERT</b> utilizes <a href="https://arxiv.org/pdf/1706.03762.pdf">attention.</a></p>
+
+    <p>We want to know how to work around <b>BERT</b>'s 512 token limitation to analyze large documents. <a href="https://arxiv.org/pdf/2203.11258.pdf">Papers</a> have proposed that <br>
+    512 tokens is plenty of context, and out-of-the-box <b>BERT</b> often outperforms finetuned models or models like LongFormer <br>
+    which can take 4000+ tokens depending on the model. Another option is <b>BELT</b> - <b>BE</b>rt <b>F</b>or <b>L</b>onger <b>T</b>exts. Built on <b>BERT</b> framework, <br>
+    <b>BELT</b> is something we are looking into. <a href="https://github.com/mim-solutions/bert_for_longer_texts"><b>BELT</b></a>, being built on <b>BERT</b> framework, gives us <br>
+    access to all <b>BERT</b> documentation. Currently, we just need to make baselines - AKA we just need to play around with it <br>
+    to see if it's any good!</p>
+
+    <h2>Cognitive Systems Lab</h2>
+    <img src="https://www.insightintodiversity.com/wp-content/uploads/2021/04/uw-madison-1.png" alt="UW-Madison" width="600" height="337">
+    <p>When I return back to UW-Madison, I will be continuing my research on Automated Vehicle (AV) technology. <br>
+    Currently, we are working on our research studying Human-Driver interaction, specifically on notification and communication systems <br>
+    between driver and AV. </p>
+
+    <h1>Past Research</h1>
+    <h2>Cognitive Systems Lab</h2>
+    <p><i>Incorporating driver expectations into a taxonomy of transfers of control for automated vehicles</i></p>
+
+    <p>This research paper defines all the main transfers of control of the vehicle between driver and AV. This is also my first <br>
+    research paper! We utilized Zotero, Obsidian, and the Zettelkasten method to create a web of interconnected resources, to quickly <br>
+    produce quality research, which we still utilize today.</p>
 
 </body>
 </html>
