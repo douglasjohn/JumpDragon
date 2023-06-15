@@ -8,6 +8,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   /* Header styles */
@@ -49,4 +53,6 @@ body {
     background-color: #6986ee;
     padding: 20px;
     text-align: center;
+
+    margin-top: auto;
   }
