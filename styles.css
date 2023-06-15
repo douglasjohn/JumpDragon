@@ -10,8 +10,8 @@ body {
     background-size: cover;
 
     min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
+    display: flex;
+    flex-direction: column;
   }
   
   /* Header styles */
@@ -54,6 +54,7 @@ body {
   
   /* Footer styles */
   footer {
+    margin-top: auto;
     background-color: #6986ee;
     padding: 20px;
     text-align: center;
