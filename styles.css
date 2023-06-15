@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("https://t3.ftcdn.net/jpg/03/38/93/64/360_F_338936421_gRUJPx3lkUubis20MznfgAlDnQWVJ63p.jpg") no-repeat center center fixed; 
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/002/020/662/original/abstract-grey-plexus-dots-and-lines-connection-background-free-video.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,6 +16,7 @@ body {
   
   /* Header styles */
   header {
+    position: fixed;
     background: url("https://www.springboard.com/blog/wp-content/uploads/2018/12/blog-ML-blogs-700x286.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
