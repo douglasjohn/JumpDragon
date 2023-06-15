@@ -3,11 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Website-Background.jpg") no-repeat center center fixed; 
+    background: url("https://t3.ftcdn.net/jpg/03/38/93/64/360_F_338936421_gRUJPx3lkUubis20MznfgAlDnQWVJ63p.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
   }
   
   /* Header styles */
