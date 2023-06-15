@@ -13,9 +13,6 @@ body {
   /* Header styles */
   header {
     background: url("https://www.springboard.com/blog/wp-content/uploads/2018/12/blog-ML-blogs-700x286.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     padding: 20px;
   }
